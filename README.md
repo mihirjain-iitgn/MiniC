@@ -1,6 +1,5 @@
 # MiniC
 MiniC is a toy compiler that generates MIPS assembly code for a tiny subset of the C programming language. The compiler is made using Flex and Bison.
-[Presentation Link](https://docs.google.com/presentation/d/1Amm27kK6KHI94pslBIAKD4D36fIsG_-uIePxbjuWKkk/edit?usp=sharing)
 
 ## How to Build MiniC?
 
@@ -13,7 +12,7 @@ MiniC is a toy compiler that generates MIPS assembly code for a tiny subset of t
 ``` java -jar ./Mars4_5.jar ```
 
 ## Features Implemented
-* Datatype supported: int, void(only for main function call)
+* Datatype supported: int.
 * Loops: while, for (nested as well)
 * Conditionals: if else (nested as well)
 * Booleans
@@ -29,10 +28,10 @@ MiniC is a toy compiler that generates MIPS assembly code for a tiny subset of t
 * One-dimensional Array
 
 ## Group Members
-* Mihir Jain (18110100)
-* Janvi Thakkar (18110069)
-* Aishna Agrawal (18110011)
-* Priyam Tongia (18110129)
+* [Mihir Jain](https://github.com/mihirjain-iitgn)
+* [Janvi Thakkar](https://github.com/jvt3112)
+* [Aishna Agrawal](https://github.com/Aishnaagrawal)
+* [Priyam Tongia](https://github.com/Priyam1418)
 
 ## References
 * [Lab Problems](https://canvas.instructure.com/courses/2496326/files/folder/Labs)
