@@ -1,0 +1,38 @@
+int sum(int n){
+    int temp;
+    if (n == 1){
+        temp = 1;
+    }
+    else{
+        temp = n-1;
+        temp = sum(temp);
+        temp = n + temp;
+    }
+    return temp;
+}
+
+int fact(int n){
+    int temp;
+    if (n == 1){
+        temp = 1;
+    }
+    else{
+        temp = n-1;
+        temp = fact(temp);
+        temp = n * temp;
+    }
+    return temp;
+}
+
+int main(){
+    /*Hi There*/
+    int n;
+    input(n);
+    int ansa;
+    int ansb;
+    int ans;
+    ansa = fact(n);
+    ansb = sum(n);
+    ans = ansa + ansb;
+    print(ans);
+}

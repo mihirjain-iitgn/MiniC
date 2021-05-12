@@ -1,0 +1,27 @@
+int fib(int n){
+    int tempa;
+    int tempb;
+    int tempc;
+    if (2 >= n){
+        if (n == 1){
+            tempa = 0;
+        }
+        else{
+            tempa = 1;
+        }
+    }
+    else{
+        tempb = n-1;
+        tempc = n-2;
+        tempa = fib(tempb) + fib(tempc);
+    }
+    return tempa;
+}
+
+void main(){
+    int n;
+    input(n);
+    int ans;
+    ans = fib(n);
+    print(ans);
+}

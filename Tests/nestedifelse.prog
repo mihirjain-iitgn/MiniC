@@ -1,0 +1,18 @@
+void main(){
+    int i;
+    input(i);
+    int ans = 0;
+    if(i%2==0){
+        if(i>10){
+            print(ans);
+        }
+        else{
+            ans = 1;
+            print(ans);
+        }
+    }
+    else{
+        ans = 2;
+        print(ans);
+    }
+}
